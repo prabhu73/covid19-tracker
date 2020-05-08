@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Track Covid-19 India</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="wash_hands">Wash your hands for 20sec or Use sanitizer</string>
+    <string name="dont_split">Don\'t sneeze or cough outside. Please use tissue or cloth.</string>
+    <string name="consultation">If you have Dry cough, Runny nose, Sour throat and difficult in breathing. Please get your health checked</string>
+    <string name="dont_go_out">Stay home.\nStay safe.</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.covidtracker.ui.main.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_stateDataFragment"
+            app:destination="@id/stateDataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stateDataFragment"
+        android:name="com.covidtracker.ui.main.StatesDataFragment"
+        android:label="fragment_district_data"
+        tools:layout="@layout/fragment_states_data" >
+        <action
+            android:id="@+id/action_stateDataFragment_to_districtWiseDataFragment"
+            app:destination="@id/districtWiseDataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/districtWiseDataFragment"
+        android:name="com.covidtracker.ui.main.DistrictWiseDataFragment"
+        android:label="fragment_district_wise_data"
+        tools:layout="@layout/fragment_district_wise_data" />
+</navigation>

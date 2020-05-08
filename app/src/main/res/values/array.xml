@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="safe_data_images">
+        <item>@drawable/ic_coronavirus</item>
+        <item>@drawable/ic_active_patient</item>
+        <item>@drawable/ic_health_care</item>
+        <item>@drawable/ic_scared</item>
+    </integer-array>
+
+    <string-array name="safe_data_info">
+        <item>@string/wash_hands</item>
+        <item>@string/dont_split</item>
+        <item>@string/consultation</item>
+        <item>@string/dont_go_out</item>
+    </string-array>
+
+</resources>
