@@ -1,6 +1,8 @@
 # covid19-tracker
 We can track covid19 cases in india
 
+Data fetching from: https://github.com/covid19india/api _Thanks for the teams for making the data open source_
+
 Used the following concepts
 1. MVVM architecture
 1. Koin dependency injection
